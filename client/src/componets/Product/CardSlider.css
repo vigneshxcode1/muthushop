@@ -127,18 +127,21 @@ font-weight: 900;
   font-weight: bolder;
     color: rgb(3, 3, 3);
     font-family: 'mont';
+
   }
   .title-oversized-cut{
     text-decoration:line-through;
     margin-top: -10px;
     font-size: 15px;
     color: rgb(2, 2, 2);
-    background-color: rgb(179, 118, 210);
+    
+    border-radius: 10px;
   }
   .title-oversized-org{
     font-size: 20px;
     color: rgb(0, 0, 0);
     margin-top: -10px;
      background-color: rgb(179, 118, 210);
+     border-radius: 10px;
   }
 }
