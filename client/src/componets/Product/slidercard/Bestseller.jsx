@@ -27,7 +27,7 @@ const Trendingshirt = () => {
         //   setLoading(false);
         //   return;
         // }
-        
+
         const res = await axios.get(`${BASE_URL}/api/v1/products?category=Shampoo`);
         const sortedProducts = res.data.product.sort(
           (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
@@ -50,7 +50,7 @@ const Trendingshirt = () => {
   if (loading) {
     return (
       <>
-        <img className="loading-image" src={loadingimg} alt="Loading..." />
+        {/* <img className="loading-image" src={loadingimg} alt="Loading..." /> */}
         <p className="loading">Loading...</p>
       </>
     );

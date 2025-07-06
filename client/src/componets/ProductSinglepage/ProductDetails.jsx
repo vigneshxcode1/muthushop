@@ -85,7 +85,7 @@ const ProductDetail = () => {
   if (loading)
     return (
       <>
-        <img className="loading-image" src={loadingimg} alt="Loading..." />
+        {/* <img className="loading-image" src={loadingimg} alt="Loading..." /> */}
         <p className="loading">Loading...</p>
       </>
     );

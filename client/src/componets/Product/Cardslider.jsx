@@ -51,7 +51,7 @@ const Trendingshirt = () => {
   if (loading) {
     return (
       <div className="loading-container">
-        <img className="loading-image" src={loadingimg} alt="Loading..." />
+        {/* <img className="loading-image" src={loadingimg} alt="Loading..." /> */}
         <p className="loading">Loading...</p>
       </div>
     );
@@ -63,7 +63,7 @@ const Trendingshirt = () => {
 
   return (
     <div>
-      <Link className="links" to={"/anioversized"}>
+      <Link className="links" to={"/products"}>
         <h1 className="header">New Arrival</h1>
         <span className="showmore">Slide more</span>
       </Link>
