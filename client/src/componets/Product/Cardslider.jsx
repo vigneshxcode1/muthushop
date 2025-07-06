@@ -4,8 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import loadingimg from "../../componets/images/7GtC.gif";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+// const BASE_URL = "https://shafin-backend.onrender.com";
 
+const BASE_URL ="https://muthushop.onrender.com"
 const Trendingshirt = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -17,23 +18,23 @@ const Trendingshirt = () => {
       try {
         setLoading(true);
 
-        // Check local storage for cached data
-        const cachedProducts = localStorage.getItem('trendingshirts');
-        if (cachedProducts) {
-          setProducts(JSON.parse(cachedProducts));
-          setLoading(false);
-          return;
-        }
+        // // Check local storage for cached data
+        // const cachedProducts = localStorage.getItem('trendingshirts');
+        // if (cachedProducts) {
+        //   setProducts(JSON.parse(cachedProducts));
+        //   setLoading(false);
+        //   return;
+        // }
 
         // Fetch data from the API
-        const res = await axios.get(`${BASE_URL}/api/v1/products?category=newarrival`);
+        const res = await axios.get(`${BASE_URL}/api/v1/products`);
         const sortedProducts = res.data.product.sort(
           (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
         );
         const firstEightProducts = sortedProducts.slice(0, 15);
 
-        // Save data to local storage
-        localStorage.setItem('trendingshirts', JSON.stringify(firstEightProducts));
+        // // Save data to local storage
+        // localStorage.setItem('trendingshirts', JSON.stringify(firstEightProducts));
 
         setProducts(firstEightProducts);
       } catch (err) {

@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import loadingimg from "../../../componets/images/7GtC.gif"
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL = "https://muthushop.onrender.com";
 
 // const BASE_URL= "http://localhost:8000"
 
@@ -21,19 +21,20 @@ const Trendingshirt = () => {
     const fetchProducts = async () => {
       try {
 
-        const cachedData = localStorage.getItem(`bestseller`);
-        if (cachedData) {
-          setProducts(JSON.parse(cachedData));
-          setLoading(false);
-          return;
-        }
-        const res = await axios.get(`${BASE_URL}/api/v1/products?category=bestseller`);
+        // const cachedData = localStorage.getItem(`Shampoo`);
+        // if (cachedData) {
+        //   setProducts(JSON.parse(cachedData));
+        //   setLoading(false);
+        //   return;
+        // }
+        
+        const res = await axios.get(`${BASE_URL}/api/v1/products?category=Shampoo`);
         const sortedProducts = res.data.product.sort(
           (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
         );
         const firstEightProducts = sortedProducts.slice(0, 15);
 
-        localStorage.setItem('bestseller', JSON.stringify(firstEightProducts));
+        localStorage.setItem('Shampoo', JSON.stringify(firstEightProducts));
 
         setProducts(firstEightProducts);
       } catch (err) {

@@ -42,7 +42,7 @@ function App() {
     <BrowserRouter>
       <ToastContainer />
       <Routes>
-        <Route path="/" element={<Entry />} />
+        {/* <Route path="/" element={<Entry />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/home" element={<Home />} />
         <Route path="/products" element={<Product />} />

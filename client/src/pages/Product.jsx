@@ -8,8 +8,8 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import InfiniteScroll from "react-infinite-scroll-component";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
-
+// const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL= "https://muthushop.onrender.com";
 // const BASE_URL = "http://65.2.6.251:8000";
 
 function GridExample() {
@@ -78,7 +78,7 @@ function GridExample() {
         />
         <Button className="searchbtn">Search</Button>
       </Form> */}
-      <h1 className="grid-title">Zculture Collections</h1>
+      <h1 className="grid-title">herbal Collections</h1>
       <br />
 
       <InfiniteScroll

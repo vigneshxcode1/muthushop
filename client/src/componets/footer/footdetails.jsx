@@ -9,24 +9,24 @@ const Footer = () => {
     <>
       <footer>
         <div className="footer-section">
-          <h1>ZCULTURE</h1>
+          <h1>MUTHU'S PETALS</h1>
           <Accordion className="footerlinks">
             <Accordion.Item eventKey="0">
               <Accordion.Header>Quick Shop</Accordion.Header>
               
               <Accordion.Body className="link-detail">
-              <span>PRINTED Collections...</span>
-                <Link className="links" to={"/anioversized"}>
-                  <li>Animi oversized</li>
+              <span>Collections...</span>
+                <Link className="links" to={"/anioversizeds"}>
+                  <li>Shampoo</li>
                 </Link>
-                <Link className="links" to={"/caroversized"}>
-                  <li>Car printed Oversized</li>
+                <Link className="links" to={"/caroversizeds"}>
+                  <li>Soap</li>
                 </Link>
-                <Link className="links" to={"/movieoversized"}>
-                  <li>Movies printed </li>
+                <Link className="links" to={"/movieoversizeds"}>
+                  <li>Face Serum</li>
                 </Link>
-                <Link className="links" to={"/musicoversized"}>
-                  <li>Music artist printed </li>
+                <Link className="links" to={"/musicoversizeds"}>
+                  <li>Lipbom</li>
                 </Link>
                 
               
@@ -55,9 +55,9 @@ const Footer = () => {
           </Accordion>
           <div className="contactlinks">
             <h6>Contact</h6>
-            <p>Email: <a href="mailto:zculture01@gmail.com?subject=Subject%20Here&body=Body%20Here">zculture01@gmail.com</a></p>
+            <p>Email: <a href="mailto:zculture01@gmail.com?subject=Subject%20Here&body=Body%20Here">sample@gmail.com</a></p>
 
-            <p>Ph: <a href="tel:+917010434690">+91 7010434690</a></p>
+            <p>Ph: <a href="tel:+917010434690">+91 0000999988</a></p>
 
             <p><a href="/contact">social media</a></p>
           </div>

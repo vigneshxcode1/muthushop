@@ -8,11 +8,11 @@ import musixcimg from "../../images/5925448.jpg";
 import "../Corosol.css";
 
 const productsimg = [
-  { id: 1, image: animiimg, name: " Hair Growth Oil", link: "/anioversized" },
+  { id: 1, image: animiimg, name: " Hair Growth Oil", link: "/products" },
   // { id: 2, image: sport1, name: "sports collection", link: "/sportoversized" },
-  { id: 3, image: carimg, name: "Damage Repair Kit", link: "/caroversized" },
-  { id: 4, image: bikeimg, name: "Anti-Hair Fall", link: "/movieoversized" },
-  { id: 5, image: musixcimg, name: "Onion Shampoo ", link: "/music" },
+  { id: 3, image: carimg, name: "Damage Repair Kit", link: "/products" },
+  { id: 4, image: bikeimg, name: "Anti-Hair Fall", link: "/products" },
+  { id: 5, image: musixcimg, name: "Onion Shampoo ", link: "/products" },
 ];
 
 const Trendingshirt = () => {

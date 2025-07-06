@@ -2,7 +2,7 @@
 footer {
   padding: 20px;
   font-family: "mont";
-  background-color: #000000;
+  background-color: rgb(225, 189, 219);
   letter-spacing: 3px;
   border-top: 1px solid rgb(180, 179, 179);
 }
@@ -58,7 +58,7 @@ span {
 }
 .contactlinks{
   margin-top: 20px;
-  background-color: #000;
+ 
 }
 .contactlinks h6{
   font-size: 20px;

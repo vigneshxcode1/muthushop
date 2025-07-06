@@ -11,7 +11,9 @@ import { addCartItem } from "../../localStorageHelpers.jsx";
 import Accordion from "react-bootstrap/Accordion";
 import Bestseller from "../../componets/Product/slidercard/Bestseller.jsx";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+// const BASE_URL = "https://shafin-backend.onrender.com";
+
+const BASE_URL = "https://muthushop.onrender.com";
 
 // const BASE_URL = "http://localhost:8000"
 
@@ -142,7 +144,7 @@ const ProductDetail = () => {
          
 
             <div className="size-container-size">
-              <label htmlFor="size">Select Size</label>
+              <label htmlFor="size" id="select">Select ml</label>
               <select
                 id="size"
                 value={selectedSize}
@@ -151,16 +153,16 @@ const ProductDetail = () => {
                 {!(product.color === "green" || product.color === "beige") && (
                   <option value="s">S</option>
                 )}
-                <option value="m">M</option>
-                <option value="l">L</option>
-                <option value="xl">XL</option>
+                <option value="m">100lm</option>
+                <option value="l">250ml</option>
+                <option value="xl">500ml</option>
               </select>
             
             </div>
-            <br />
-            <p className="product-detail-category">
+           
+            {/* <p className="product-detail-category">
             <a href="/sizeimage">view  sizechart</a>
-            </p>
+            </p> */}
 
             <div className="quantity-container">
               <span className="qtnbtn">Quantity</span>

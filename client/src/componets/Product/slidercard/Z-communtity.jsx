@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import loadingimg from "../../../componets/images/7GtC.gif"
 import './zculture.css'
-const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL = "https://muthushop.onrender.com";
 
 // const BASE_URL= "http://localhost:8000"
 
@@ -22,12 +22,12 @@ const Trendingshirt = () => {
 
       try {
 
-        const cachedData = localStorage.getItem(`zculture`);
-        if (cachedData) {
-          setProducts(JSON.parse(cachedData));
-          setLoading(false);
-          return;
-        }
+        // const cachedData = localStorage.getItem(`zculture`);
+        // if (cachedData) {
+        //   setProducts(JSON.parse(cachedData));
+        //   setLoading(false);
+        //   return;
+        // }
         const res = await axios.get(`${BASE_URL}/api/v1/products`);
 
         const sortedProducts = res.data.product.sort(
