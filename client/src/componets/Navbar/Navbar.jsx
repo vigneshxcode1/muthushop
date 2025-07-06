@@ -29,7 +29,7 @@ function CollapsibleExample() {
     <Navbar.Collapse id="responsive-navbar-nav" className="toggle">
       <Nav className="me-auto tog">
         <Nav.Link href="/products">TOP COLLECTIONS</Nav.Link>
-        <Nav.Link href="/products">NEW ARRIVALS</Nav.Link>
+        {/* <Nav.Link href="/products">NEW ARRIVALS</Nav.Link> */}
         <NavDropdown title="more collections" id="collapsible-nav-dropdown">
           <NavDropdown.Item href="/animicollections">
             Face wash Collections
