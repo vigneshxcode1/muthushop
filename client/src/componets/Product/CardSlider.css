@@ -45,6 +45,7 @@
   margin-bottom:-50px;
   letter-spacing: 3px;
   font-family: 'mont';
+  margin-left: 20px;
 }
 
 
@@ -107,7 +108,7 @@ font-weight: 900;
   .header {
     font-size: 1.5rem;
     display:flex ;
-   
+   margin-left: 20px;
     color: rgb(207, 50, 163);
     font-size: 30px;
     font-family: cursive;
