@@ -83,8 +83,7 @@ const Trendingshirt = () => {
             <p className="title-oversized">{product.name}</p>
             <p className="title-oversized-cut">Rs:₹{product.cutprice}</p>
             <p className="title-oversized-org">Just at:₹{product.price}</p>
-        
-           
+            
           </div>
         ))}
       </div>

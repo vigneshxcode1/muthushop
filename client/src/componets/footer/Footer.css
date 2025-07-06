@@ -2,10 +2,10 @@
 footer {
   padding: 20px;
   font-family: "mont";
-  background-color: rgb(179, 118, 210);
+  background-color: rgb(49, 49, 49);
   letter-spacing: 3px;
   border-top: 1px solid rgb(180, 179, 179);
-  color: #000;
+  color: #ffffff;
 }
 .links{
   text-decoration: none;
@@ -20,14 +20,14 @@ footer {
 }
 
 .contactlinks a {
-color: #000;
+color: #ffffff;
 
 }
 .footerlinks .accordion-button {
   background-color: transparent;
   border: none;
   box-shadow: none;
-  color: #000;
+  color: #010101;
 
 }
 
@@ -51,7 +51,7 @@ h1, h6, p {
   font-weight: 900;
  
   letter-spacing: 3px;
-  color: #000
+  color: #ffffff
 }
 
 span {
@@ -60,7 +60,7 @@ span {
 }
 .contactlinks{
   margin-top: 20px;
-  color: #000;
+  color: #ffffff;
  
 }
 .contactlinks h6{
@@ -71,7 +71,7 @@ span {
 }
 .contactlinks p{
   margin-top: 20px;
-  color: #000;
+  color: #ffffff;
 }
 
 .info h6{
