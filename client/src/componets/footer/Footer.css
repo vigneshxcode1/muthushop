@@ -5,19 +5,24 @@ footer {
   background-color: rgb(225, 189, 219);
   letter-spacing: 3px;
   border-top: 1px solid rgb(180, 179, 179);
+  color: #000;
 }
 .links{
   text-decoration: none;
-  color: rgb(188, 185, 185);
+  color: #000;
 }
 
 .footer-sections span{
   margin-top: 20px;
   border: none;
   font-size:12px; 
-  background-color: #000000;
+  background-color: #b8b0b000;
 }
 
+.contactlinks a {
+color: #000;
+
+}
 .footerlinks .accordion-button {
   background-color: transparent;
   border: none;
@@ -32,12 +37,6 @@ footer {
 
 }
 
-.footerlinks .accordion-body {
-  background-color:black;
-  color: aliceblue;
-  border: none;
-}
-
 .footerlinks .link-detail li {
 text-align: center;
 display: flex;
@@ -49,7 +48,10 @@ margin: 10px;
 h1, h6, p {
   margin: 5px 0;
   font-size: 15px;
+  font-weight: 900;
+ 
   letter-spacing: 3px;
+  color: #000
 }
 
 span {
@@ -58,6 +60,7 @@ span {
 }
 .contactlinks{
   margin-top: 20px;
+  color: #000;
  
 }
 .contactlinks h6{
@@ -68,6 +71,7 @@ span {
 }
 .contactlinks p{
   margin-top: 20px;
+  color: #000;
 }
 
 .info h6{
