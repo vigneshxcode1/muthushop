@@ -92,7 +92,7 @@ color: rgb(25, 23, 23);
 .product-detail {
   display: flex;
   flex-wrap: wrap;
-  background-color: #decfdb;
+  background-color: #ffffff;
   color: black;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
