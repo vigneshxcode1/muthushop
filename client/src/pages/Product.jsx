@@ -50,7 +50,7 @@ function GridExample() {
   if (loading) {
     return (
       <>
-        <img className="loading-image" src={loadingimg}></img>
+        {/* <img className="loading-image" src={loadingimg}></img> */}
         <p className="loading">Loading....</p>
       </>
     );
