@@ -87,8 +87,9 @@ function GridExample() {
         hasMore={hasMore}
         loader={
           <div className="loading-container">
-            <img className="loading-image" src={loadingimg} alt="Loading..." />
-           
+            {/* <img className="loading-image" src={loadingimg} alt="Loading..." /> */}
+
+              <p className="loading">Loading....</p>
           </div>
         }
         endMessage={<p className="end-message">No more products to display</p>}
