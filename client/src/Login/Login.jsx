@@ -10,7 +10,7 @@ import "./Login.css";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { auth } from "./firebase";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL = "https://muthushop.onrender.com";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -131,11 +131,8 @@ function Login() {
 
               <br />
 
-            <p className="loginmsg">NEW USER QUICK LOGIN USING GOOGLE SIGIN</p>
-
-              <button className="googlebtn" onClick={googlesigin} variant="primary" type="submit">
-                google signin
-              </button>
+           
+             
             </div>
           </div>
         </div>

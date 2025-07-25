@@ -9,31 +9,35 @@ import Footer from "../componets/footer/footdetails.jsx";
 // import Product from '../componets/Product/Product.jsx'
 import Testamonial from "./Testimonial/Testamonial.jsx";
 import Gallery from "./gallery/Gallery.jsx";
-
-
+import BannerPage from "../componets/Product/slidercard/BannerPage.jsx";
+import titleimg from "../../src/componets/images/logo.png";
 const Home = () => {
   return (
     <>
       <Navbar />
-
-      <Corosol />
+      {/* 
+      <Corosol /> */}
+{/* <img src={titleimg} className="titleimg"alt="Logo" /> */}
+      <BannerPage />
 
       <CardSlider />
-      
-      <Bestseller />
-      
-      <br />
-      <button className="viewmore"> <a href="/products">VIEW MORE</a></button>
-      <br />
-      
-      <Zcommunity />
-     
-   
-      <Testamonial/>
 
-<br />
-      <Gallery/>
-      
+      <Bestseller />
+
+      <br />
+      <button className="viewmore">
+        {" "}
+        <a href="/products">VIEW MORE</a>
+      </button>
+      <br />
+
+      <Zcommunity />
+
+      <Testamonial />
+
+      <br />
+      <Gallery />
+
       <Footer />
     </>
   );

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL = "https://muthushop.onrender.com";
 
 const Updateproducts = () => {
   const [name, setName] = useState("");
@@ -165,16 +165,16 @@ const Updateproducts = () => {
               value={category}
               onChange={(e) => setCategory(e.target.value)}
             >
-              <option value="newarrival">newarrival</option>
-              <option value="bestseller">bestseller</option>
-              <option value="zcommuntity">zcommuntity</option>
+              <option value="newarrival">product1</option>
+              <option value="bestseller">productname2</option>
+              <option value="zcommuntity">productname3</option>
               <option value="animi-oversizes-t-shirts">
-                Anime Oversized T-shirts
+              productname3
               </option>
-              <option value="caroversized">CarOversizes</option>
-              <option value="music">music tees</option>
-              <option value="bike">bike tess</option>
-              <option value="sportoversized">sport tees</option>
+              <option value="caroversized">productname4</option>
+              <option value="music">productname5</option>
+              <option value="bike">productname6</option>
+              <option value="sportoversized">productname</option>
             </select>
           </div>
           <div className="mb-3">

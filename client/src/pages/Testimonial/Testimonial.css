@@ -1,5 +1,6 @@
 .slider-container {
   display: flex;
+  color: #c954ac;
   justify-content: center; /* Center the testimonial */
   align-items: center; /* Center vertically */
   margin: 10px 0; /* Add some margin */
@@ -7,11 +8,11 @@
   height: 400px; /* Increase height as needed */
   overflow: hidden; /* Hide overflow for clean look */
   position: relative; /* For any absolute positioning if needed */
- background-image: url(".../../../../componets/images/IrM.gif");
+
 }
 
 .card {
- color: white;
+ color: rgb(166, 27, 27);
   border-radius: 8px;
   padding: 30px; 
   min-width: 100px; /* Minimum width for each card */
@@ -21,7 +22,7 @@
   display: flex; /* Use flexbox for better layout */
   flex-direction: column; /* Stack elements vertically */
   justify-content: center; /* Center content vertically */
-  background-image: url(".../../../../componets/images/IrM.gif");
+
   border: none;
 
 }
@@ -53,11 +54,11 @@
 .cust-name{
   font-weight:800;
   font-size:25px;
-  color: rgb(221, 220, 220);
+  color: rgb(77, 75, 77);
   text-align: start;
 }
 .cust-profession{
-  color: rgb(209, 209, 209);
+  color: rgb(99, 97, 99);
   text-align: start;
  
 }
@@ -65,7 +66,7 @@
   font-weight: 500;
   font-size: 12px;
   text-align: start;
-  color: rgb(221, 220, 220);
+  color: rgb(78, 77, 77);
   
 
 }
@@ -76,7 +77,7 @@
 }
 
 .nav-button {
-  background-color: #a72374;  
+  background-color: #090809;  
   color: white; 
   border: none;
   border-radius: 10px;
@@ -89,7 +90,7 @@
 
 .createreview{
   padding: 10px;
-  background-color: #52a6ae;
+  background-color: #a852ae;
   color: white;
   border-radius: 10px;
 }

@@ -16,8 +16,24 @@
 }
 
 
+.offerheader{
+  margin-top: 10%;
+  color: rgb(114, 32, 201);
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.title2{
+ 
+  padding-top: 20px;
+  font-weight: 900;
+  color: rgb(164, 101, 231);
+  justify-content: center;
+align-items: center;
+display: flex;
+}
 
-  
+
 
 .img-main {
   display: flex;
@@ -32,11 +48,9 @@
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 20%;
- 
+
 }
-.product-image{
-  border: 1px solid black;
-}
+
 .header {
   font-size: 2.5rem;
   text-align: center;
@@ -47,7 +61,8 @@
   letter-spacing: 3px;
   font-family: 'mont';
   font-weight: 800;
-  margin-left: 20px;
+  margin-left: 10px;
+
 }
 
 
@@ -66,7 +81,7 @@
    
    font-size: 20px;
   text-align: center;
-  background-color: rgba(241, 241, 241, 0.775);
+  background-color: rgba(225, 221, 221, 0.775);
 border: 1px solid rgba(0, 0, 0, 0.478);
 
 }
@@ -75,7 +90,7 @@ border: 1px solid rgba(0, 0, 0, 0.478);
   width: 300px; 
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0  auto;
   
   transition: transform 0.5s ease-in-out; 
 }
@@ -113,7 +128,7 @@ font-weight: 900;
   .header {
     font-size: 1.5rem;
     display:flex ;
-   margin-left: 20px;
+   margin-left: 0px;
     color: rgb(7, 7, 7);
     font-size: 30px;
     font-family: cursive;
@@ -145,8 +160,17 @@ font-weight: 900;
   .title-oversized-org{
     font-size: 20px;
     padding: 10px;
+    color: rgb(0, 0, 0);
+   
+     border-radius: 10px;
+  }
+  .title-addtocart{
+    font-size: 19px;
+margin-bottom: 20px;
+border: none;
+font-weight: 900;
     color: rgb(255, 255, 255);
     background-color: rgb(166, 109, 226);
-     border-radius: 10px;
+     border-radius: 8px;
   }
 }

@@ -83,7 +83,8 @@ const Trendingshirt = () => {
               )}
               <p className="title-oversized">{product.name}</p>
               <p className="title-oversized-cut">Rs:₹{product.cutprice}</p>
-              <p className="title-oversized1">From RS: {product.price}</p>
+              <p className="title-oversized">From RS: {product.price}</p>
+              <button   onClick={() => navigate(`/products/${product._id}`)} className="title-addtocart">VIEW DETAILS</button>
             </div>
           ))}
         </div>

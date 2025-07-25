@@ -5,7 +5,7 @@ import axios from "axios";
 import "./toastify.css";
 import Dashbroad from "../Dashbroad";
 
- const BASE_URL = "https://shafin-backend.onrender.com";
+ const BASE_URL = "https://muthushop.onrender.com";
 
 //const BASE_URL = "http://localhost:8000";
 
@@ -173,16 +173,16 @@ const Createproducts = () => {
               >
                 <option value="">Select category</option>
 
-                <option value="newarrival">newarrival</option>
-                <option value="bestseller">bestseller</option>
-                <option value="zcommuntity">zcommuntity</option>
+                <option value="newarrival">product1</option>
+                <option value="bestseller">product1</option>
+                <option value="zcommuntity">product1</option>
                 <option value="animi-oversizes-t-shirts">
-                  Anime Oversized T-shirts
+                product1
                 </option>
-                <option value="caroversized">CarOversizes</option>
-                <option value="music">music tees</option>
-                <option value="bike">bike tess</option>
-                <option value="sportoversized">sport tees</option>
+                <option value="caroversized">product1</option>
+                <option value="music">product1</option>
+                <option value="bike">product1</option>
+                <option value="sportoversized">product1</option>
               </select>
             </div>
             <div className="mb-3">

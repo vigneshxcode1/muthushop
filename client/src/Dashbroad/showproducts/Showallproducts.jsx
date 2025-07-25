@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Dashbroad from "../Dashbroad";
 import "./showproducts.css";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL = "https://muthushop.onrender.com";
 
 export const Showallproducts = () => {
   const [products, setProducts] = useState([]);

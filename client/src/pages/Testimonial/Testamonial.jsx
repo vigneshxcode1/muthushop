@@ -3,7 +3,7 @@ import "./Testimonial.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const BASE_URL = "https://shafin-backend.onrender.com";
+const BASE_URL = "https://muthushop.onrender.com";
 
 // const BASE_URL= "http://localhost:8000"
 

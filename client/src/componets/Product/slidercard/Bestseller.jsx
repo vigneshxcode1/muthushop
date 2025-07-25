@@ -62,7 +62,8 @@ const Trendingshirt = () => {
       <div>
       <Link className="links" to={"/products"}>
         <div>
-          <h1 className="header">Best-seller</h1>
+          <h1 className="header">Best-seller & Natural Shampoo</h1> 
+          <br /><br />
           <span className="showmore">slide more</span>
         </div>
       </Link>
@@ -83,7 +84,8 @@ const Trendingshirt = () => {
             <p className="title-oversized">{product.name}</p>
             <p className="title-oversized-cut">Rs:₹{product.cutprice}</p>
             <p className="title-oversized-org">Just at:₹{product.price}</p>
-            
+            <button   onClick={() => navigate(`/products/${product._id}`)} className="title-addtocart">VIEW DETAILS</button>
+
           </div>
         ))}
       </div>

@@ -1,22 +1,18 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import cartimg from "../../componets/images/add-to-cart.png";
 import titleimg from "../images/logo.png";
 
 import "./Navbar.css";
 
-function CollapsibleExample() {
-  return (
-    <>
-  
 
-<div className="navbar-wrapper">
-  <Navbar
+function BasicExample() {
+  return (
+    <Navbar
     collapseOnSelect
     expand="lg"
     className="bg-body-tertiary toggle"
@@ -29,29 +25,33 @@ function CollapsibleExample() {
     <Navbar.Collapse id="responsive-navbar-nav" className="toggle">
       <Nav className="me-auto tog">
         <Nav.Link href="/products">TOP COLLECTIONS</Nav.Link>
-        {/* <Nav.Link href="/products">NEW ARRIVALS</Nav.Link> */}
+        <Nav.Link href="/anioversized"> ARRIVALS</Nav.Link>
         <NavDropdown title="more collections" id="collapsible-nav-dropdown">
+        
           <NavDropdown.Item href="/animicollections">
-            Face wash Collections
+          product1
           </NavDropdown.Item>
           <NavDropdown.Item href="/caroversized">
-            Serum Collections
+          product2
           </NavDropdown.Item>
           <NavDropdown.Item href="/movieoversized">
-            hair wash Collections
+          product3
           </NavDropdown.Item>
           <NavDropdown.Item href="/sportoversized">
-            LIP Collections
+          product4
           </NavDropdown.Item>
           <NavDropdown.Divider />
         </NavDropdown>
         <Nav.Link href="/login">LOGIN</Nav.Link>
+
         <Nav.Link href="/profile">profile</Nav.Link>
       </Nav>
-    </Navbar.Collapse>
 
+     
+
+    </Navbar.Collapse>
     <Navbar.Brand href="/" className="headtitle">
-      <img className="titleimg" src={titleimg} alt="logo" />
+      <img className="titleimg" src={titleimg}></img>
     </Navbar.Brand>
 
     <Link to={"/cart"}>
@@ -60,12 +60,7 @@ function CollapsibleExample() {
       </Navbar.Brand>
     </Link>
   </Navbar>
-</div>
-
-</>
-
-    
   );
 }
 
-export default CollapsibleExample;
+export default BasicExample;
