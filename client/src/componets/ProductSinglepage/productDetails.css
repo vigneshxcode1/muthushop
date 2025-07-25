@@ -187,7 +187,9 @@ color: rgb(25, 23, 23);
   color: #df50d0;
   margin-top: 10px;
 }
-
+.quantitys{
+  color: #030303;
+}
 .product-detail-info button:hover {
   transform: 0.5 ease;
   background-color: #f7f7f7;
@@ -411,7 +413,7 @@ color: rgb(25, 23, 23);
 }
 
 #quabtity-btn-right {
-  background-color: #000000;
+  background-color: #8f3030;
   font-size: 30px;
 }
 
@@ -447,4 +449,34 @@ color: rgb(25, 23, 23);
 
 .addtocart:hover {
   background-color: #2980b9;
+}
+.description {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "fontstart";
+}
+
+.dec-detail {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "mont";
+}
+
+.description .accordion-button {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.description .accordion-button:not(.collapsed) {
+  background-color: #f1f1f1 !important; /* Slight gray for open state */
+  color: #000000 !important;
+}
+
+.description ul li {
+  color: #000000 !important;
 }

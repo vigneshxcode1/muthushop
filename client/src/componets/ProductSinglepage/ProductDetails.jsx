@@ -193,15 +193,7 @@ const ProductDetail = () => {
                 <Accordion.Body className="dec-detail">
                   {/* <p>{product.describe}</p> */}
                   <ul>
-                    <li>Fit overSized</li>
-                    <li>240GSM </li>
-                    <li>High quality DTF prints</li>
-                    <li>Front & back Printed .</li>
-                    <li>100% Biowashed Cotton.</li>
-                    <li>
-                      Wash Care : Machine Wash only, Dry in Shade, Wash Inside
-                      Out
-                    </li>
+                    product details
                   </ul>
                 </Accordion.Body>
               </Accordion.Item>
