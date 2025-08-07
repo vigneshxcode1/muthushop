@@ -16,14 +16,15 @@ const Home = () => {
   return (
     <>
       <Navbar />
+
+
       {/* 
       <Corosol /> */}
       {/* <img src={titleimg} className="titleimg"alt="Logo" /> */}
+
       <BannerPage />
 
-      <CardSlider />
 
-      <Bestseller />
 
       <br />
       <button className="viewmore">
@@ -35,6 +36,10 @@ const Home = () => {
       <Zcommunity />
 
       <About />
+
+      <CardSlider />
+
+      <Bestseller />
       
       <Testamonial />
 

@@ -40,13 +40,14 @@ font-family: 'Times New Roman', Times, serif;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
-  padding-left: 15px;
+  padding-left: 6px;
   gap: 10px;
   margin-left:-10px;
   scroll-behavior: smooth; 
   margin-top: 0px;
   font-family: 'mont';
   animation: appear linear;
+  
   animation-timeline: view();
   animation-range: entry 0% cover 20%;
 
@@ -93,6 +94,7 @@ border: 1px solid rgba(0, 0, 0, 0.478);
   display: block;
   margin: 0  auto;
   
+  
   transition: transform 0.5s ease-in-out; 
 }
 
@@ -118,7 +120,8 @@ font-weight: 900;
 
 @media (max-width: 768px) {
   .stackimg {
-    width: 180px; 
+    width: 180px;
+    background-color:#171616 ;
    
   }
  
