@@ -1,0 +1,177 @@
+
+
+@keyframes appear {
+  from{
+    opacity: 0;
+    scale: 0.5;
+    /* clip-path: inset(100% 100% 0 0); */
+    /* transform: translateX(-100px); */
+  }
+  to{
+    opacity: 1;
+    /* clip-path: inset(0 0 0 0); */
+    /* transform: translateX(0px); */
+    scale: 1;
+  }
+}
+
+
+.offerheader{
+  margin-top: 10%;
+  color: rgb(114, 32, 201);
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.title2{
+ 
+  padding-top: 20px;
+  font-weight: 900;
+  color: rgb(164, 101, 231);
+  justify-content: center;
+align-items: center;
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.img-main {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-left: 15px;
+  gap: 10px;
+  margin-left:-10px;
+  scroll-behavior: smooth; 
+  margin-top: 0px;
+  font-family: 'mont';
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+
+}
+
+.header {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #171616;
+  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom:-50px;
+  letter-spacing: 3px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin-left: 10px;
+
+}
+
+
+.showmore {
+  margin-top: 20px;
+  color: rgb(30, 27, 29);
+  text-decoration: underline;
+  display: block;
+  text-align: end;
+  margin-right: 20px;
+  font-family: 'mont';
+
+}
+
+.products {
+   
+   font-size: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.775);
+border: 1px solid rgba(0, 0, 0, 0.478);
+
+}
+
+.stackimg {
+  width: 300px; 
+  height: auto;
+  display: block;
+  margin: 0  auto;
+  
+  transition: transform 0.5s ease-in-out; 
+}
+
+.stackimg:hover {
+  transform: scale(1.05);
+}
+
+
+
+.title-oversized-cut{
+  text-decoration:line-through;
+font-weight: 900;
+  margin-top: -10px;
+  font-size: 15px;
+  color: rgb(192, 187, 187);
+}
+.title-oversized-org{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-top: -10px;
+}
+
+
+@media (max-width: 768px) {
+  .stackimg {
+    width: 180px; 
+   
+  }
+ 
+.products .title-oversized{
+
+  font-weight: 900;
+}
+  .header {
+    font-size: 1.5rem;
+    display:flex ;
+   margin-left: 0px;
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    font-family: cursive;
+   
+   
+  }
+ 
+  .showmore {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .title-oversized {
+    font-size: 15px;
+  margin-top: 10px;
+  font-weight: bolder;
+    color: rgb(3, 3, 3);
+    font-family: 'mont';
+
+  }
+  .title-oversized-cut{
+    text-decoration:line-through;
+    margin-top: -10px;
+    font-size: 15px;
+    color: rgb(2, 2, 2);
+    
+    border-radius: 10px;
+  }
+  .title-oversized-org{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+   
+     border-radius: 10px;
+  }
+  .title-addtocart{
+    font-size: 19px;
+margin-bottom: 20px;
+border: none;
+font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: rgb(166, 109, 226);
+     border-radius: 8px;
+  }
+}

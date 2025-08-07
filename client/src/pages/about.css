@@ -1,0 +1,38 @@
+.about{
+    margin:  0 auto;
+    padding: 20px;
+     background-color: rgb(94, 63, 130);
+     border-radius: 10px;
+     margin-top: 30px;
+margin-bottom: 70px;
+}
+
+.about h1{
+    color: aliceblue;
+}
+.para{
+    font-size: 20px;
+    justify-content: center;
+    text-align: start;
+    font-weight: 600;
+}
+.t{
+    color: rgb(255, 255, 255);
+}
+#welcome{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+
+#sub{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    line-break: auto;
+    gap: 0.6;
+    padding: 10px;
+    
+}

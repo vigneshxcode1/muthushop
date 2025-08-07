@@ -1,0 +1,86 @@
+/* Footer.css */
+footer {
+  padding: 20px;
+  font-family: "mont";
+  background-color: rgb(49, 49, 49);
+  letter-spacing: 3px;
+  border-top: 1px solid rgb(180, 179, 179);
+  color: #ffffff;
+}
+.links{
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-sections span{
+  margin-top: 20px;
+  border: none;
+  font-size:12px; 
+  background-color: #b8b0b000;
+}
+
+.contactlinks a {
+color: #ffffff;
+
+}
+.footerlinks .accordion-button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #010101;
+
+}
+
+.footerlinks .accordion-button:focus {
+  box-shadow: none;
+  border: none;
+
+}
+
+.footerlinks .link-detail li {
+text-align: center;
+display: flex;
+border: none;
+margin: 10px;
+
+}
+
+h1, h6, p {
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 900;
+ 
+  letter-spacing: 3px;
+  color: #ffffff
+}
+
+span {
+  display: block;
+  margin-top: 20px;
+}
+.contactlinks{
+  margin-top: 20px;
+  color: #ffffff;
+ 
+}
+.contactlinks h6{
+  font-size: 20px;
+  border-bottom: 1px solid rgb(164, 163, 163);
+  padding: 10px;
+
+}
+.contactlinks p{
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.info h6{
+
+border-bottom: 1px solid rgb(170, 169, 169);
+padding: 10px;
+font-size: 20px;
+margin-top: 10px;
+}
+.info p{
+  margin-top: 20px;
+}
