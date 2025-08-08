@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 
 import cartimg from "../../componets/images/add-to-cart.png";
-import titleimg from "../images/logo.png";
+import titleimg from "../images/logo.jpg";
 
 import "./Navbar.css";
 

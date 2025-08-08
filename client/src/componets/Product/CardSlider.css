@@ -17,17 +17,20 @@
 
 
 .offerheader{
+background: #ac4dd1;
+background: radial-gradient(circle, rgba(172, 77, 209, 1) 0%, rgba(85, 55, 97, 1) 100%);
   margin-top: 10%;
-  color: rgb(114, 32, 201);
+  color: rgb(246, 246, 246);
 justify-content: center;
 align-items: center;
 display: flex;
+
 }
 .title2{
  
   padding-top: 20px;
   font-weight: 900;
-  color: rgb(164, 101, 231);
+  color: rgb(255, 255, 255);
   justify-content: center;
 align-items: center;
 display: flex;
@@ -84,7 +87,7 @@ font-family: 'Times New Roman', Times, serif;
    font-size: 20px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.775);
-border: 1px solid rgba(0, 0, 0, 0.478);
+border: 1px solid rgba(0, 0, 0, 0.107);
 
 }
 

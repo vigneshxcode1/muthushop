@@ -165,7 +165,7 @@ const ProductDetail = () => {
             <div className="quantity-container">
               <span className="qtnbtn">Quantity</span>
               <button
-                id="quantity-btn-left"
+                className="quantity-btn-left"
                 onClick={() => handleQuantityChange(-1)}
               >
                 -

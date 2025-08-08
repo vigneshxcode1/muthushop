@@ -1,8 +1,9 @@
 /* Gallery container */
 .gallery-container {
-    padding: 20px;
+    padding: 10px;
     max-width: 1200px;
     margin: 0 auto;
+
   }
   
   h1 {
@@ -68,7 +69,8 @@
   }
   
   .upload-txt{
-    font-size: 10px;
+    font-size: 15px;
+    padding: 10px;
   }
   /* Responsive breakpoints */
   @media (max-width: 768px) {

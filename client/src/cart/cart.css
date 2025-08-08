@@ -66,25 +66,6 @@ a{
   padding-left: 20px;
 }
 
-.quantity-container {
-  display: flex;
-  align-items: center;
-  color: #000000;
-  font-size: 20px;
-}
-
-.quantity-container button {
-background-color: #000000;
-color: #44bc50;
-font-size: 20px;
-font-weight: 900;
-  border: none;
-  cursor: pointer;
-  padding: 5px 10px;
-}
-.quantity{
-  margin-top: 10px;
-}
 
 
 .remove {

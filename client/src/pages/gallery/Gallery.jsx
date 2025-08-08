@@ -31,7 +31,7 @@ const Gallery = () => {
   return (
     <div className="gallery-container">
       <h1>Customer Gallery</h1>
-      <h1 className="upload-txt">Rock the Look,Snap a Pic! <br />Share Your Style with muthupetals and Get Featured</h1>
+      <h1 className="upload-txt">Rock the Look,Snap a Pic! <br /><br />Share Your Style with muthupetals and Get Featured</h1>
       <br />
 
       <div className="gallery-grid">

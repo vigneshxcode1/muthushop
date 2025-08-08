@@ -16,6 +16,7 @@
 #product-detail-name{
   font-size: 30px;
   color: #030303;
+   font-weight: 900;
 }
 .product-detail-category{
   font-size: 16px;
@@ -338,6 +339,7 @@ color: rgb(25, 23, 23);
   font-size: 30px;
   margin: auto;
   margin-bottom: 10px;
+ 
 }
 
 .prices {
@@ -407,15 +409,26 @@ color: rgb(25, 23, 23);
   padding: 8px;
 }
 
-#quabtity-btn-left {
-  background-color: #7d1d1d;
-  font-size: 30px;
+.quantity-container {
+  display: flex;
+  align-items: center;
+  color: #7121ae;
+  font-size: 20px;
 }
 
-#quabtity-btn-right {
-  background-color: #8f3030;
-  font-size: 30px;
+.quantity-container button {
+background-color: #cd6be6;
+color: #ffffff;
+font-size: 20px;
+font-weight: 900;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
 }
+.quantity{
+  margin-top: 10px;
+}
+
 
 #quabtity-btn-left:hover {
   background-color: #bc2222;

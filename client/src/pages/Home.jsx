@@ -10,8 +10,11 @@ import Footer from "../componets/footer/footdetails.jsx";
 import Testamonial from "./Testimonial/Testamonial.jsx";
 import Gallery from "./gallery/Gallery.jsx";
 import BannerPage from "../componets/Product/slidercard/BannerPage.jsx";
-import titleimg from "../../src/componets/images/logo.png";
+
 import About from "./About.jsx";
+
+import Whyas from "./Whyas.jsx";
+
 const Home = () => {
   return (
     <>
@@ -24,23 +27,21 @@ const Home = () => {
 
       <BannerPage />
 
+        <Bestseller />
 
+     <Whyas/>
 
-      <br />
-      <button className="viewmore">
-        {" "}
-        <a href="/products">VIEW MORE</a>
-      </button>
-      <br />
 
       <Zcommunity />
 
       <About />
 
-      <CardSlider />
-
-      <Bestseller />
+     
+    
       
+       <CardSlider />
+
+
       <Testamonial />
 
       <br />
