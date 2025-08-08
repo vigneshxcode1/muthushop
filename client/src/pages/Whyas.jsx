@@ -3,7 +3,7 @@ import "./whyas.css"
 import img1 from "../componets/images/loyalty.gif"
 import img2 from "../componets/images/syringe.gif"
 import img3 from "../componets/images/home-care.gif"
-import img4 from "../componets/images/syringe.gif"
+import img4 from "../componets/images/natural-product.gif"
 const Whyas = () => {
 
     
