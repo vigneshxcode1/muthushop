@@ -73,7 +73,7 @@ const Trendingshirt = () => {
             <div className="product-card" key={product._id}>
               {product.images && product.images.length > 0 ? (
                 <img
-                  className="product-image"
+                  className="stackimg"
                   onClick={() => navigate(`/products/${product._id}`)}
                   src={product.images[0]}
                   alt={`${product.name} first image`}
@@ -83,7 +83,7 @@ const Trendingshirt = () => {
               )}
               <p className="title-oversized">{product.name}</p>
               <p className="title-oversized-cut">Rs:₹{product.cutprice}</p>
-              <p className="title-oversized">From RS: {product.price}</p>
+              <p className="title-oversized-org">From RS: {product.price}</p>
               <button   onClick={() => navigate(`/products/${product._id}`)} className="title-addtocart">VIEW DETAILS</button>
             </div>
           ))}

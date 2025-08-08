@@ -18,7 +18,7 @@ margin-bottom: 20px;
 
 /* Main heading */
 .whyas2 > h1 {
-  font-size: 20px;
+  font-size: 10px;
   color: #6f6f6f;
   margin-bottom: 20px;
 }
@@ -63,20 +63,33 @@ margin-bottom: 20px;
 /* Media query for mobile responsiveness */
 @media (max-width: 600px) {
   .whyas1 {
+    font-size: 10px;
     padding: 10px;
     color: #6f6f6f;
+  }
+.whyas2{
+    font-size: 20px;
+}
+.whyas span {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+  .whyas2 h1{
+    font-size: 10px;
   }
 
   .whyas2 > h1,
   .whyas3 {
-    font-size: 20px
+    font-size: 18px
   }
 
   .whyast1 {
-    font-size: 1.2rem;
+    font-size:10px;
   }
 
   .whyas2 {
     padding: 10px;
   }
 }
+
+

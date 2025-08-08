@@ -20,7 +20,7 @@
 background: #ac4dd1;
 background: radial-gradient(circle, rgba(172, 77, 209, 1) 0%, rgba(85, 55, 97, 1) 100%);
   margin-top: 10%;
-  color: rgb(246, 246, 246);
+  color: rgb(203, 203, 203);
 justify-content: center;
 align-items: center;
 display: flex;
@@ -30,7 +30,7 @@ display: flex;
  
   padding-top: 20px;
   font-weight: 900;
-  color: rgb(255, 255, 255);
+  color: rgb(196, 193, 193);
   justify-content: center;
 align-items: center;
 display: flex;
@@ -87,7 +87,7 @@ font-family: 'Times New Roman', Times, serif;
    font-size: 20px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.775);
-border: 1px solid rgba(0, 0, 0, 0.107);
+border: 1px solid rgba(192, 192, 192, 0.478);
 
 }
 
@@ -123,7 +123,8 @@ font-weight: 900;
 
 @media (max-width: 768px) {
   .stackimg {
-    width: 180px;
+
+    width: 150px;
     background-color:#171616 ;
    
   }
@@ -133,12 +134,12 @@ font-weight: 900;
   font-weight: 900;
 }
   .header {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display:flex ;
    margin-left: 0px;
     color: rgb(7, 7, 7);
     font-size: 30px;
-    font-family: cursive;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
    
    
   }
@@ -149,7 +150,7 @@ font-weight: 900;
   }
 
   .title-oversized {
-    font-size: 15px;
+    font-size: 10px;
   margin-top: 10px;
   font-weight: bolder;
     color: rgb(3, 3, 3);
@@ -159,20 +160,21 @@ font-weight: 900;
   .title-oversized-cut{
     text-decoration:line-through;
     margin-top: -10px;
-    font-size: 15px;
+    font-size: 12px;
     color: rgb(2, 2, 2);
-    
-    border-radius: 10px;
+    font-weight: 900;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .title-oversized-org{
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
     color: rgb(0, 0, 0);
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
      border-radius: 10px;
   }
   .title-addtocart{
-    font-size: 19px;
+    font-size: 14px;
 margin-bottom: 20px;
 border: none;
 font-weight: 900;

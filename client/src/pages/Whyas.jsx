@@ -5,6 +5,8 @@ import img2 from "../componets/images/syringe.gif"
 import img3 from "../componets/images/home-care.gif"
 import img4 from "../componets/images/syringe.gif"
 const Whyas = () => {
+
+    
   return (
     <div className="whyas">
       <div className="whyas1">
@@ -15,9 +17,7 @@ const Whyas = () => {
 
         <div className="whyas2">
               <img src={img1} alt=""  className="img1"/>
-           <h1 className="whyas3" id="a">
-          
-                    Satisfied Customers</h1>
+           <h1 className="whyas3" id="a">Satisfied Customers</h1>
             <h1 className="whyas3">Proven outcomes across all age</h1>       
         </div>
         
