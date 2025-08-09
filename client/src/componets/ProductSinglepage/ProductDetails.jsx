@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./productDetails.css";
 
-import loadingimg from "../../componets/images/animiloading.gif";
+import loadingimg from "../../componets/images/7LXw.gif";
 import Navbar from "../Navbar/Navbar.jsx";
 import { addCartItem } from "../../localStorageHelpers.jsx";
 import Accordion from "react-bootstrap/Accordion";
@@ -85,7 +85,7 @@ const ProductDetail = () => {
   if (loading)
     return (
       <>
-        {/* <img className="loading-image" src={loadingimg} alt="Loading..." /> */}
+        <img className="loading-image" src={loadingimg} alt="Loading..." />
         <p className="loading">Loading...</p>
       </>
     );

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './CardSlider.css';
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import loadingimg from "../../componets/images/7GtC.gif";
+import loadingimg from "../../componets/images/7LXw.gif";
 
 // const BASE_URL = "https://shafin-backend.onrender.com";
 
@@ -51,7 +51,7 @@ const Trendingshirt = () => {
   if (loading) {
     return (
       <div className="loading-container">
-        {/* <img className="loading-image" src={loadingimg} alt="Loading..." /> */}
+        <img className="loading-image" src={loadingimg} alt="Loading..." />
         <p className="loading">Loading...</p>
       </div>
     );
