@@ -29,6 +29,7 @@
 
 .cart-img{
     width: 40px;
+   
 }
 .login{
     text-decoration: none;
@@ -49,17 +50,32 @@
     font-size: 30px;
     font-weight: 700;
     margin-top: 15px;
+    
 }
 
+#headtitle{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 768px) {
     .titleimg {
 
       height: 80;
       width: 100px;
+
     }
+
+    #headtitle{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
   }
+
+
 .cart-img{
-    margin-top: -30px;
+    margin-top: -10px;
 }
 #bg-body-tertiary{
     border: none;

@@ -51,7 +51,10 @@ function BasicExample() {
 
     </Navbar.Collapse>
     <Navbar.Brand href="/" className="headtitle">
-      <img className="titleimg" src={titleimg}></img>
+    <div id="headtitle">
+       <img className="titleimg" src={titleimg}></img>
+    </div>
+     
     </Navbar.Brand>
 
     <Link to={"/cart"}>

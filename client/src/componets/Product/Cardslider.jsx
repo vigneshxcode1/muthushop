@@ -64,7 +64,7 @@ const Trendingshirt = () => {
   return (
     <div>
       <Link className="links" to={"/products"}>
-        <h1 className="header">New Arrival ,Hair Oil & Face Wash</h1><br /><br />
+        <h1 className="header">New Arrival & Hair Shampoo & products</h1><br /><br />
         <span className="showmore">Slide more</span>
       </Link>
 
