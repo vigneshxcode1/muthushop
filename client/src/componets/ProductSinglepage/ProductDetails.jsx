@@ -22,7 +22,7 @@ const ProductDetail = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [quantity, setQuantity] = useState(1);
-  const [selectedSize, setSelectedSize] = useState("m");
+  const [selectedSize, setSelectedSize] = useState("100ml");
   const [current, setCurrent] = useState(0);
   const { id } = useParams();
 

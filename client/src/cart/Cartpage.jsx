@@ -105,7 +105,7 @@ const Cart = () => {
                         <div className="cart-item-info" id="cart-info">
                             <h2>{item.name}</h2>
                             <p id="price">Price: ₹{item.price}</p>
-                            <p id="price">Size: {item.size}</p>
+                            <p id="price">Size: {item.size}ml</p>
                             <div className="quantity-container">
                                 <span className="qtnbtn">Quantity</span>
                                 <button
