@@ -24,7 +24,7 @@ function Login() {
       .post(`${BASE_URL}/api/v1/login`, { email, password })
       .then((response) => {
         if (response.data.success === "success") {
-          localStorage.setItem("token", response.data.token);
+          localStorage.setItem("tokens", response.data.token);
           toast.success("Login successful!", {
             position: "top-right",
             autoClose: 3000,

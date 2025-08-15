@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
 const BASE_URL = "https://muthushop.onrender.com";
+//const BASE_URL = "http://localhost:8000";
 
 const Updateproducts = () => {
   const [name, setName] = useState("");
@@ -21,7 +22,7 @@ const Updateproducts = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const token = localStorage.getItem("token");
+        const token = localStorage.getItem("tokens");
         const res = await axios.get(`${BASE_URL}/api/v1/products/${id}`, {
           headers: {
             Authorization: `Bearer ${token}`,

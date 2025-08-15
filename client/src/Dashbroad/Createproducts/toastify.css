@@ -1,7 +1,7 @@
 /* toastify.css */
 .custom-toast-success {
     background-color: #4caf50 !important; /* Green background for success */
-    color: white !important; /* White text color */
+    color: rgb(197, 197, 197) !important; /* White text color */
     font-weight: bold; /* Bold text */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
@@ -10,3 +10,11 @@
 label{
 color: aliceblue;
   }
+
+.login{
+  color: #000000;
+}
+
+.name{
+  color: #000000;
+}

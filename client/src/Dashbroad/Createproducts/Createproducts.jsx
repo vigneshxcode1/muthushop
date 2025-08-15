@@ -5,7 +5,7 @@ import axios from "axios";
 import "./toastify.css";
 import Dashbroad from "../Dashbroad";
 
- const BASE_URL = "https://muthushop.onrender.com";
+  const BASE_URL = "https://muthushop.onrender.com";
 
 //const BASE_URL = "http://localhost:8000";
 
@@ -19,7 +19,7 @@ const Createproducts = () => {
   const [describe, setDescription] = useState("");
   const [seller, setSeller] = useState("");
   const [rating, setRating] = useState("");
-  const [size, setSize] = useState("m");
+  const [size, setSize] = useState("100");
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -29,7 +29,7 @@ const Createproducts = () => {
     e.preventDefault();
     setLoading(true);
   
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("tokens");
   
     const formData = new FormData();
     formData.append("name", name);
@@ -113,7 +113,7 @@ const Createproducts = () => {
               />
             </div>
             <div className="mb-3">
-              <label>Description</label>
+              <label className="name">Description</label>
               <input
                 type="text"
                 required
@@ -125,7 +125,7 @@ const Createproducts = () => {
             </div>
 
             <div className="mb-3">
-              <label>colors</label>
+              <label className="name">colors</label>
               <select
                 className="form-control"
                 required
@@ -142,7 +142,7 @@ const Createproducts = () => {
             </div>
 
             <div className="mb-3">
-              <label>Price</label>
+              <label className="name">Price</label>
               <input
                 type="number"
                 required
@@ -153,7 +153,7 @@ const Createproducts = () => {
               />
             </div>
             <div className="mb-3">
-              <label>cutPrice</label>
+              <label className="name">cutPrice</label>
               <input
                 type="number"
                 required
@@ -164,7 +164,7 @@ const Createproducts = () => {
               />
             </div>
             <div className="mb-3">
-              <label>Category</label>
+              <label className="name">Category</label>
               <select
                 className="form-control"
                 required
@@ -173,20 +173,18 @@ const Createproducts = () => {
               >
                 <option value="">Select category</option>
 
-                <option value="newarrival">product1</option>
-                <option value="bestseller">product1</option>
-                <option value="zcommuntity">product1</option>
-                <option value="animi-oversizes-t-shirts">
-                product1
-                </option>
-                <option value="caroversized">product1</option>
+                <option value="Shampoo">shampoo</option>
+                <option value="Soap">soap</option>
+                <option value="Face Serum">face-serum</option>
+                <option value="Facewash">facewash </option>
+                <option value="Lipbom">product1</option>
                 <option value="music">product1</option>
                 <option value="bike">product1</option>
                 <option value="sportoversized">product1</option>
               </select>
             </div>
             <div className="mb-3">
-              <label>Stock</label>
+              <label className="name">Stock</label>
               <input
                 type="number"
                 required
@@ -197,7 +195,7 @@ const Createproducts = () => {
               />
             </div>
             <div className="mb-3">
-              <label>Seller</label>
+              <label className="name">Seller</label>
               <input
                 type="text"
                 required
@@ -208,7 +206,7 @@ const Createproducts = () => {
               />
             </div>
             <div className="mb-3">
-              <label>Rating</label>
+              <label className="name">Rating</label>
               <input
                 type="number"
                 required
@@ -220,11 +218,11 @@ const Createproducts = () => {
             </div>
             <div className="mb-3">
               <div className="mb-3">
-                <label>Image URLs</label>
+                <label className="name">Image URLs</label>
                 <input
                   type="text"
                   placeholder="Paste image URLs, separated by commas"
-                  className="form-control"
+                  className="form-control img"
                   onChange={handleImageUrlChange}
                 />
               </div>
