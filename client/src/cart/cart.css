@@ -3,7 +3,7 @@
   padding: 10px;
   font-family: 'mont';
   margin-top: 20px;
-color: white;
+color: rgb(255, 255, 255);
 }
 #cart-info{
   color: #000000;
@@ -104,7 +104,8 @@ a{
   max-width: 500px;
   margin: auto;
   padding: 20px;
-  background-color: #000000;
+  background-color: #9945bb;
+  color: #000000;
   margin-top: 50px;
   font-size:20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -128,7 +129,7 @@ a{
   width: 100%;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #ffffff;
+  border: 1px solid #515151;
   font-size: 20px;
 
 }
@@ -136,7 +137,7 @@ a{
 .placeorder {
   width: 100%;
   padding: 10px ;
-  background-color: #9644bc;
+  background-color: #ffffff;
   color: #000000;
   margin-top: 30px;
   border: none;
@@ -159,7 +160,7 @@ a{
   .inputs {
  
     background-color: transparent;
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   font-variant: normal;
   border-bottom: 1px solid rgba(255, 255, 255, 0.593);
