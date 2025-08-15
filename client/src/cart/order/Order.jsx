@@ -105,7 +105,10 @@ Description: ${item.describe}
   };
 
   return (
-    <div className="shipping-form-container">
+    <>
+    <h1>easy to order</h1>
+     <div className="shipping-form-container">
+
       <h2>SHIPPING ADDRESS</h2>
       <form className="main-container" onSubmit={handleSubmit}>
         <div className="container">
@@ -190,6 +193,8 @@ Description: ${item.describe}
         </button>
       </form>
     </div>
+    </>
+   
   );
 };
 
