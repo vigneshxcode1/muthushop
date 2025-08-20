@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
-const BASE_URL = "https://muthushop.onrender.com";
-//const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://muthushop.onrender.com";
+// const BASE_URL = "http://localhost:8000";
 
 const Updateproducts = () => {
   const [name, setName] = useState("");
@@ -61,7 +61,7 @@ const Updateproducts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("tokens");
 
     axios
       .put(

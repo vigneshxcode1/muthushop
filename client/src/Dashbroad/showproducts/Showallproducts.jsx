@@ -45,7 +45,7 @@ export const Showallproducts = () => {
   }
   
     try {
-      const token = localStorage.getItem('token');
+      const token = localStorage.getItem('tokens');
       await axios.delete(`${BASE_URL}/api/v1/products/delete/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`
